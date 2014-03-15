@@ -1,5 +1,5 @@
-safe: true
-markdown: kramdown
+safe: false
+markdown: rdiscount
 
 rdiscount:
   extensions:
@@ -21,9 +21,10 @@ assets:
     - _assets/images
 
 gems:
-  - bootstrap-sass
   - jekyll
   - jekyll-assets
+  - bootstrap-sass
+  - compass-rails
 
 timezone: Europe/Berlin
 future: true
