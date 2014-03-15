@@ -8,14 +8,15 @@ rdiscount:
     - footnotes     # footnotes
     - smart         # typographic substitutions with SmartyPants
 
-sources:
-  - _assets/javascripts
-  - _assets/stylesheets
-  - _assets/images
 
 assets:
   js_compressor:  uglifier
   css_compressor: sass
+  dirname: assets
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
 
 gems:
   - bootstrap-sass
