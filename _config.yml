@@ -7,7 +7,6 @@ rdiscount:
     - footnotes     # footnotes
     - smart         # typographic substitutions with SmartyPants
 
-
 assets:
   cache: false
   cachebust: hard
@@ -28,7 +27,6 @@ gems:
   - jekyll-assets
   - bootstrap-sass
   - compass-rails
-
 
 timezone: Europe/Berlin
 future: true
