@@ -1,3 +1,5 @@
+debug: true
+safe: false
 markdown: rdiscount
 
 rdiscount:
@@ -28,7 +30,6 @@ cache: false
 
 gzip: [ text/css, application/javascript ]
 
-debug: false
 timezone: Europe/Berlin
 future: true
 
