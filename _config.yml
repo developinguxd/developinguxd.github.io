@@ -1,5 +1,5 @@
-safe: false
-markdown: rdiscount
+safe: true
+markdown: kramdown
 
 rdiscount:
   extensions:
