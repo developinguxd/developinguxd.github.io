@@ -1,0 +1,6 @@
+css_dir: "assets/css"
+images_dir: "assets/images"
+sass_dir: "assets/stylesheets"
+javascripts_dir: "assets/javascripts"
+output_style: :compressed
+preferred_syntax: :scss
