@@ -22,11 +22,8 @@ assets:
 
 gems:
   - bootstrap-sass
-  - rdiscount
   - jekyll
   - jekyll-assets
-  - bootstrap-sass
-  - compass-rails
 
 timezone: Europe/Berlin
 future: true
