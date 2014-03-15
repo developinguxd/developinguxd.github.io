@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
-  {% stylesheets app %}
+  {{ 'app' | stylesheet }}
 </head>
 <body>
   {{ content }}
-  {% javascript app %}
+  {{ 'app' | javascript }}
 </body>
 </html>
