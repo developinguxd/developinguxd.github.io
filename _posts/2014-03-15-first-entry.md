@@ -10,7 +10,5 @@ tags:
 
 **{{ page.title }}** written in markdown.
 {% highlight javascript linenos %}
-```javascript
 console.log("hello world");
-```
 {% endhighlight %}
