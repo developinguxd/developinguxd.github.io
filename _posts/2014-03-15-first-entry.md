@@ -1,8 +1,7 @@
 ---
 layout: post
 title: This is my first article
-categories:
-  - setup
+category: setup
 tags: 
   - html-basics
   - html-structure
