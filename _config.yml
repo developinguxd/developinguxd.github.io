@@ -1,4 +1,9 @@
+safe: true
+lsi: false
+pygments: true
+
 exclude:
   - CNAME
   - LICENSE
   - README.md
+  - Gemfile
