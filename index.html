@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What is this about?
+title: What is all this about?
 ---
 
 <h1>{{ page.title }}</h1>
@@ -8,6 +8,19 @@ title: What is this about?
 {% for post in site.posts %}
 
     {{ post.date | date: "%B %e, %Y" }}
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url }}">{{ post.title }}</a><br>
 
 {% endfor %}
+
+<h2>category test:</h2>
+{% for post in site.categories.test %}
+    <a href="{{ post.url }}">{{ post.title }}</a><br>
+{% endfor %}
+
+<h2>tag css:</h2>
+{% for post in site.tags.css %}
+    <a href="{{ post.url }}">{{ post.title }}</a><br>
+{% endfor %}
+
+<h2>Third article:</h2>
+[Third article]{% post_url setup/third-entry %}
