@@ -2,7 +2,8 @@
 layout: post
 title: This is my first article
 category: setup
-tags: 
+index: 1
+tags:
   - html-basics
   - html-structure
 ---
