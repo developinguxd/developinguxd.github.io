@@ -1,7 +1,6 @@
 ---
 layout: post
 title: This is my first article
-published: true
 categories:
   - setup
 tags: 
