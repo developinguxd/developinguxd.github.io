@@ -2,7 +2,8 @@
 layout: post
 title: This is my first article
 published: true
-category: setup
+categories:
+  - setup
 tags: 
   - html-basics
   - html-structure

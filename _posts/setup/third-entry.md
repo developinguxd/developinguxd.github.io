@@ -1,7 +1,8 @@
 ---
 layout: post
 title: This is my third article
-category: test
+categories:
+  - test
 tags: 
   - css
   - css3
