@@ -1,12 +1,9 @@
 ---
 layout: post
 title: This is my second article
-category: setup
 index: 3
-tags: 
-  - css
-  - css3
-  - css-basics
+category: setup
+tags:  [css, css3, css-basics]
 ---
 
 **{{ page.title }}** written in markdown.
