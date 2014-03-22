@@ -1,7 +1,14 @@
+/* Generic styles */
 body {
   color: $primary;
 }
 
+.btn:focus {
+  outline: none !Important;
+}
+
+
+/* panel */
 .panel-step {
 
 }
