@@ -6,6 +6,7 @@
           target = $(el.attr("data-toggle-nav"));
 
           target.toggleClass("hidden-xs");
+          el.toggleClass("active");
   });
 
 }());
