@@ -2,8 +2,8 @@
 layout: default
 title: Developing User Experience Design
 url:
-  bs: http://getbootstrap.com
-  subl: http://sublime-text.com
+bs: http://getbootstrap.com
+subl: http://sublime-text.com
 ---
 
 <h1>{{ page.title }}</h1>
@@ -11,6 +11,7 @@ url:
 
 <nav class="row">
   <div class="col-md-6">
+    <button class="btn visible-xs" type="button">&#9776;</button>
     <ul class="nav nav-pills nav-justified">
       <li class="active"><a href="#">Home</a></li>
       <li><a href="#">Workshop</a></li>
@@ -20,18 +21,19 @@ url:
   </div>
 </nav>
 
-<article>
-  <h1 class="text-center">Let's get started</h1>
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-      <section class="panel panel-default panel-step">
-        <header class="panel-heading">
-          <h3 class="panel-title">Setup your computer</h3>
-        </header>
-        <section class="panel-body">
-          <p>First you need <a href="{{page.url.bs}}">Bootstrap </a> and <a href="{{page.url.subl}}">Sublime Text 3</a>.</p>
-        </section>
+<article class="row"> <!-- row as a container -->
+  <div class="col-md-6 col-md-offset-3">  <!-- set width of all panels -->
+    <h1 class="text-center">Let's get started</h1>
+
+
+    <section class="panel panel-default panel-step">
+      <header class="panel-heading">
+        <h3 class="panel-title">Setup your computer</h3>
+      </header>
+      <section class="panel-body">
+        <p>First you need <a href="{{page.url.bs}}">Bootstrap </a> and <a href="{{page.url.subl}}">Sublime Text 3</a>.</p>
       </section>
-    </div>
+    </section>
+
   </div>
 </article>
