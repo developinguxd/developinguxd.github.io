@@ -1,10 +1,14 @@
 ---
 layout: default
 title: Developing User Experience Design
+
 url:
     bs: http://getbootstrap.com
     subl: http://sublime-text.com
     chrome: http://google.com/chrome
+    chrome-responsive: https://chrome.google.com/webstore/detail/responsive-inspector/memcdolmmnmnleeiodllgpibdjlkbpim
+    chrome-bootstrap-offline: https://chrome.google.com/webstore/detail/bootstrap-3-offline-guide/gaojaekjdcfbdfiiggmklaocglaknnkd
+    chrome-jetstrap: https://chrome.google.com/webstore/detail/jetstrap/ndidnhmjfaoocflngigkohfahebhjele
 ---
 
 <h1>{{ page.title }}</h1>
@@ -14,7 +18,7 @@ url:
   <div class="col-md-6">
     <button data-toggle-nav="[data-main-nav]" class="btn btn-default visible-xs" type="button">&#9776;</button>
     <ul class="nav nav-pills nav-justified hidden-xs" data-main-nav>
-      <li class="active"><a href="#">Home</a></li>
+      <li class="active"><a href="/">Home</a></li>
       <li><a href="#">Workshop</a></li>
       <li><a href="#">Articles</a></li>
       <li><a href="#">Projects</a></li>
@@ -28,7 +32,7 @@ url:
     <p class="alert alert-success vgap"><strong>Congratulations!</strong> You decided on learning modern frontend techniques. You cannot imagine, how proud we are! Soon you will be building interative prototypes like a pro. And all the frontend developers around you will love you.</p>
     <section class="panel panel-default panel-step vgap">
       <header class="panel-heading">
-        <h3 class="panel-title">Setup your computer</h3>
+        <h3 class="panel-title"><strong>Step 1:</strong>Setup your computer</h3>
       </header>
       <section class="panel-body">
       <p>We suggest installing the following applications so we all have the same setup. That makes explaining much easier.</p>
@@ -36,6 +40,18 @@ url:
       </p>
       <h1 class="h2">Install Google Chrome</h1>
        <p>First, we need a modern browser. The current best choice is <a href="{{page.url.chrome}}" target="_blank">Google Chrome</a>. It is a very advanced, quick and robust browser. It has great built-in development tools, that are very helpful speeding up the development process.</p>
+       <h2 class="h3">Recommended exteions for Google Chrome</h2>
+       <dl>
+         <dt><a href="{{page.url.chrome-responsive}}">Responsive Inspector</a></dt>
+         <dd>Look how a website looks in the different browser widths defined by the developer</dd>
+         <dt><a href="{{page.url.chrome-bootstrap-offline}}">Bootstrap 3 Offline Guide</a></dt>
+         <dd>The full Bootstrap 3 documentation saved in your browser. No internet connection needed to stay productive!</dd>
+         <dt><a href="{{page.url.chrome-jetstrap}}">Jetstrap</a></dt>
+         <dd>Graphical editor for Bootstrap. Not without flaws, but interesting enough to fiddle around a bit.</dd>
+       </dl>
+       <p></p>
+      <h1 class="h2">Install Sublime Text 3</h1>
+       <p>There are a lot of great text editors out there. This one is very fast, very popular and there are a lot of great extensions. We will use a few of them.  </p>
      </section>
    </section>
  </div>
