@@ -10,13 +10,13 @@ body {
 
 /* Vertical gaps */
 .vgap-sm {
-  margin-bottom: 10px;
-}
-.vgap {
   margin-bottom: 20px;
 }
-.vgap-lg {
+.vgap {
   margin-bottom: 40px;
+}
+.vgap-lg {
+  margin-bottom: 80px;
 }
 
 /* panel */
