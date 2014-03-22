@@ -35,15 +35,21 @@ urls:
       <p>We suggest installing the following applications so we all have the same setup. That makes explaining much easier.</p>
       <p class="alert alert-info"><strong>You should use a Mac. </strong>Yes, we know that a PC can be a great machine. But for modern frontend development, it is much easier on a Mac (or on Linux). Many programming languages, apps and libs have way better support and there are a few applications that are very helpful that only exist for machines running OS X (the operating system running on your Mac).
       </p>
+
+      <!-- panel -->
       <section class="panel panel-default">
         <header class="panel-heading">
           <h1 class="panel-title">Install Google Chrome</h1>
         </header>
         <section class="panel-body">
          <p>First, we need a modern browser. The current best choice is <a href="{{page.urls.chrome}}" target="_blank">Google Chrome</a>. It is a very advanced, quick and robust browser. It has great built-in development tools, that are very helpful speeding up the development process.</p>
-          <section>
-            <h1 class="h4">Recommended extensions for Google Chrome</h1>
-            <dl class="dl-horizontal">
+
+          <!-- extensions -->
+          <section id="chrome-extensions"  class="panel panel-collapse collapse in">
+            <div class="panel-heading">
+              <h1 class="panel-title" data-toggle="collapse" data-parent="#chrome-extensions">Recommended extensions for Google Chrome</h1>
+            </div>
+            <dl class="panel-body">
               <dt><a href="{{page.urls.chrome-responsive}}">Responsive Inspector</a></dt>
               <dd>Look how a website looks in the different browser widths defined by the developer</dd>
               <dt><a href="{{page.urls.chrome-bootstrap-offline}}">Bootstrap 3 Offline Guide</a></dt>
@@ -52,8 +58,13 @@ urls:
               <dd>Graphical editor for Bootstrap. Not without flaws, but interesting enough to fiddle around a bit.</dd>
             </dl>
           </section>
+          <!-- /extensions -->
+
         </section>
       </section>
+        <!-- /panel -->
+
+        <!-- panel -->
       <section class="panel panel-default">
         <header class="panel-heading">
           <h1 class="h2 panel-title">Install Sublime Text 3</h1>
@@ -62,6 +73,8 @@ urls:
            <p>There are a lot of great text editors out there. This one is very fast, very popular and there are a lot of great extensions. We will use a few of them.  Go and install the free (and endless) beta of <a href="{{page.urls.subl}}">Sublime Text 3</a>.</p>
          </section>
       </section>
+      <!-- /panel -->
+
    </section>
  </div>
 </article>
