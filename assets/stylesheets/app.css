@@ -1,3 +1,7 @@
 body {
-  color: #bada55;
+  color: $primary;
+}
+
+.panel-step {
+
 }
