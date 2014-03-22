@@ -3,10 +3,21 @@ body {
   color: $primary;
 }
 
+/* Remove bootstrap focus outline*/
 .btn:focus {
   outline: none !Important;
 }
 
+/* Vertical gaps */
+.vgap-sm {
+  margin-bottom: 10px;
+}
+.vgap {
+  margin-bottom: 20px;
+}
+.vgap-lg {
+  margin-bottom: 40px;
+}
 
 /* panel */
 .panel-step {
