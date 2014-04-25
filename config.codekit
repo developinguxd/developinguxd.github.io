@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16844",
+"creatorBuild": "16877",
 "files": {
 	"\/_layouts\/default.html": {
 		"fileType": 8192,
@@ -51,40 +51,75 @@
 		"outputAbbreviatedPath": "\/_posts\/2014-03-17-third-entry.html",
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/javascripts\/_test.js": {
+	"\/_site\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/setup\/first-entry.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/setup\/first-entry.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/setup\/second-entry.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/setup\/second-entry.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/test\/third-entry.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/test\/third-entry.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/testing.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/testing.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/javascripts\/min\/toggle_caret-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/javascripts\/_test.js",
-		"outputAbbreviatedPath": "\/assets\/javascripts\/min\/_test-ck.js",
+		"inputAbbreviatedPath": "\/assets\/javascripts\/min\/toggle_caret-ck.js",
+		"outputAbbreviatedPath": "\/assets\/javascripts\/min\/min\/toggle_caret-ck-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
-	"\/assets\/javascripts\/app.js": {
+	"\/assets\/javascripts\/toggle_caret.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/javascripts\/app.js",
-		"outputAbbreviatedPath": "\/assets\/javascripts\/min\/app-ck.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/stylesheets\/_colors.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/stylesheets\/_colors.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/assets\/javascripts\/toggle_caret.js",
+		"outputAbbreviatedPath": "\/assets\/javascripts\/min\/toggle_caret-ck.js",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
+		"syntaxCheckerStyle": 0
+		},
+	"\/assets\/javascripts\/toggle_nav.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/javascripts\/toggle_nav.js",
+		"outputAbbreviatedPath": "\/assets\/javascripts\/min\/toggle_nav-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/assets\/stylesheets\/app.css": {
 		"fileType": 16,
@@ -141,8 +176,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/dist\/js\/bootstrap.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/dist\/js\/min\/bootstrap-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/dist\/js\/bootstrap.min.js": {
 		"fileType": 64,
@@ -151,8 +186,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/dist\/js\/bootstrap.min.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/dist\/js\/min\/bootstrap.min-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/grunt\/bs-glyphicons-data-generator.js": {
 		"fileType": 64,
@@ -161,8 +196,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/grunt\/bs-glyphicons-data-generator.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/grunt\/min\/bs-glyphicons-data-generator-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/grunt\/bs-lessdoc-parser.js": {
 		"fileType": 64,
@@ -171,8 +206,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/grunt\/bs-lessdoc-parser.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/grunt\/min\/bs-lessdoc-parser-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/grunt\/bs-raw-files-generator.js": {
 		"fileType": 64,
@@ -181,8 +216,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/grunt\/bs-raw-files-generator.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/grunt\/min\/bs-raw-files-generator-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/grunt\/shrinkwrap.js": {
 		"fileType": 64,
@@ -191,8 +226,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/grunt\/shrinkwrap.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/grunt\/min\/shrinkwrap-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/Gruntfile.js": {
 		"fileType": 64,
@@ -201,8 +236,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/Gruntfile.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/min\/Gruntfile-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/affix.js": {
 		"fileType": 64,
@@ -211,8 +246,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/affix.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/affix-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/alert.js": {
 		"fileType": 64,
@@ -221,8 +256,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/alert.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/alert-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/button.js": {
 		"fileType": 64,
@@ -231,8 +266,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/button.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/button-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/carousel.js": {
 		"fileType": 64,
@@ -241,8 +276,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/carousel.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/carousel-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/collapse.js": {
 		"fileType": 64,
@@ -251,8 +286,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/collapse.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/collapse-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/dropdown.js": {
 		"fileType": 64,
@@ -261,8 +296,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/dropdown.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/dropdown-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/modal.js": {
 		"fileType": 64,
@@ -271,8 +306,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/modal.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/modal-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/popover.js": {
 		"fileType": 64,
@@ -281,8 +316,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/popover.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/popover-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/scrollspy.js": {
 		"fileType": 64,
@@ -291,8 +326,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/scrollspy.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/scrollspy-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/tab.js": {
 		"fileType": 64,
@@ -301,8 +336,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/tab.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/tab-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/tooltip.js": {
 		"fileType": 64,
@@ -311,8 +346,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/tooltip.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/tooltip-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/transition.js": {
 		"fileType": 64,
@@ -321,8 +356,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/transition.js",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/transition-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/less\/alerts.less": {
 		"allowInsecureImports": 0,
@@ -1113,8 +1148,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/dist\/jquery.min.js": {
 		"fileType": 64,
@@ -1123,8 +1158,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.min.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery.min-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax.js": {
 		"fileType": 64,
@@ -1133,8 +1168,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/ajax-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/jsonp.js": {
 		"fileType": 64,
@@ -1143,8 +1178,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/jsonp.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/jsonp-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/load.js": {
 		"fileType": 64,
@@ -1153,8 +1188,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/load.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/load-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/parseJSON.js": {
 		"fileType": 64,
@@ -1163,8 +1198,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/parseJSON.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/parseJSON-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/parseXML.js": {
 		"fileType": 64,
@@ -1173,8 +1208,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/parseXML.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/parseXML-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/script.js": {
 		"fileType": 64,
@@ -1183,8 +1218,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/script.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/script-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/var\/nonce.js": {
 		"fileType": 64,
@@ -1193,8 +1228,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/var\/nonce.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/var\/min\/nonce-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/var\/rquery.js": {
 		"fileType": 64,
@@ -1203,8 +1238,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/var\/rquery.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/var\/min\/rquery-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/xhr.js": {
 		"fileType": 64,
@@ -1213,8 +1248,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/xhr.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/xhr-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/attributes.js": {
 		"fileType": 64,
@@ -1223,8 +1258,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/attributes-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/attributes\/attr.js": {
 		"fileType": 64,
@@ -1233,8 +1268,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/attr.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/attr-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/attributes\/classes.js": {
 		"fileType": 64,
@@ -1243,8 +1278,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/classes.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/classes-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/attributes\/prop.js": {
 		"fileType": 64,
@@ -1253,8 +1288,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/prop.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/prop-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/attributes\/support.js": {
 		"fileType": 64,
@@ -1263,8 +1298,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/support.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/support-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/attributes\/val.js": {
 		"fileType": 64,
@@ -1273,8 +1308,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/val.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/val-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/callbacks.js": {
 		"fileType": 64,
@@ -1283,8 +1318,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/callbacks.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/callbacks-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/core.js": {
 		"fileType": 64,
@@ -1293,8 +1328,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/core.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/core-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/core\/access.js": {
 		"fileType": 64,
@@ -1303,8 +1338,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/access.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/access-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/core\/init.js": {
 		"fileType": 64,
@@ -1313,8 +1348,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/init.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/init-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/core\/parseHTML.js": {
 		"fileType": 64,
@@ -1323,8 +1358,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/parseHTML.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/parseHTML-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/core\/ready.js": {
 		"fileType": 64,
@@ -1333,8 +1368,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/ready.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/ready-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/core\/var\/rsingleTag.js": {
 		"fileType": 64,
@@ -1343,8 +1378,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/var\/rsingleTag.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/var\/min\/rsingleTag-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css.js": {
 		"fileType": 64,
@@ -1353,8 +1388,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/css-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/addGetHookIf.js": {
 		"fileType": 64,
@@ -1363,8 +1398,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/addGetHookIf.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/addGetHookIf-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/curCSS.js": {
 		"fileType": 64,
@@ -1373,8 +1408,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/curCSS.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/curCSS-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/defaultDisplay.js": {
 		"fileType": 64,
@@ -1383,8 +1418,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/defaultDisplay.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/defaultDisplay-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/hiddenVisibleSelectors.js": {
 		"fileType": 64,
@@ -1393,8 +1428,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/hiddenVisibleSelectors.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/hiddenVisibleSelectors-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/support.js": {
 		"fileType": 64,
@@ -1403,8 +1438,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/support.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/support-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/swap.js": {
 		"fileType": 64,
@@ -1413,8 +1448,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/swap.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/swap-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/cssExpand.js": {
 		"fileType": 64,
@@ -1423,8 +1458,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/cssExpand.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/cssExpand-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/getStyles.js": {
 		"fileType": 64,
@@ -1433,8 +1468,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/getStyles.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/getStyles-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/isHidden.js": {
 		"fileType": 64,
@@ -1443,8 +1478,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/isHidden.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/isHidden-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/rmargin.js": {
 		"fileType": 64,
@@ -1453,8 +1488,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/rmargin.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/rmargin-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/rnumnonpx.js": {
 		"fileType": 64,
@@ -1463,8 +1498,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/rnumnonpx.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/rnumnonpx-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/data.js": {
 		"fileType": 64,
@@ -1473,8 +1508,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/data.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/data-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/data\/accepts.js": {
 		"fileType": 64,
@@ -1483,8 +1518,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/accepts.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/min\/accepts-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/data\/Data.js": {
 		"fileType": 64,
@@ -1493,8 +1528,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/Data.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/min\/Data-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/data\/var\/data_priv.js": {
 		"fileType": 64,
@@ -1503,8 +1538,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/var\/data_priv.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/var\/min\/data_priv-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/data\/var\/data_user.js": {
 		"fileType": 64,
@@ -1513,8 +1548,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/var\/data_user.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/var\/min\/data_user-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/deferred.js": {
 		"fileType": 64,
@@ -1523,8 +1558,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/deferred.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/deferred-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/deprecated.js": {
 		"fileType": 64,
@@ -1533,8 +1568,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/deprecated.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/deprecated-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/dimensions.js": {
 		"fileType": 64,
@@ -1543,8 +1578,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/dimensions.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/dimensions-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/effects.js": {
 		"fileType": 64,
@@ -1553,8 +1588,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/effects.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/effects-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/effects\/animatedSelector.js": {
 		"fileType": 64,
@@ -1563,8 +1598,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/effects\/animatedSelector.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/effects\/min\/animatedSelector-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/effects\/Tween.js": {
 		"fileType": 64,
@@ -1573,8 +1608,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/effects\/Tween.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/effects\/min\/Tween-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/event.js": {
 		"fileType": 64,
@@ -1583,8 +1618,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/event.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/event-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/event\/alias.js": {
 		"fileType": 64,
@@ -1593,8 +1628,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/alias.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/min\/alias-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/event\/support.js": {
 		"fileType": 64,
@@ -1603,8 +1638,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/support.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/min\/support-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/exports\/amd.js": {
 		"fileType": 64,
@@ -1613,8 +1648,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/exports\/amd.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/exports\/min\/amd-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/exports\/global.js": {
 		"fileType": 64,
@@ -1623,8 +1658,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/exports\/global.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/exports\/min\/global-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/intro.js": {
 		"fileType": 64,
@@ -1633,8 +1668,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/intro.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/intro-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/jquery.js": {
 		"fileType": 64,
@@ -1643,8 +1678,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/jquery.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/jquery-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/manipulation.js": {
 		"fileType": 64,
@@ -1653,8 +1688,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/manipulation-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js": {
 		"fileType": 64,
@@ -1663,8 +1698,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/min\/_evalUrl-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/support.js": {
 		"fileType": 64,
@@ -1673,8 +1708,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/support.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/min\/support-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js": {
 		"fileType": 64,
@@ -1683,8 +1718,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/var\/min\/rcheckableType-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/offset.js": {
 		"fileType": 64,
@@ -1693,8 +1728,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/offset.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/offset-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/outro.js": {
 		"fileType": 64,
@@ -1703,8 +1738,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/outro.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/outro-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/queue.js": {
 		"fileType": 64,
@@ -1713,8 +1748,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/queue.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/queue-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/queue\/delay.js": {
 		"fileType": 64,
@@ -1723,8 +1758,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/queue\/delay.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/queue\/min\/delay-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/selector-native.js": {
 		"fileType": 64,
@@ -1733,8 +1768,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/selector-native.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/selector-native-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/selector-sizzle.js": {
 		"fileType": 64,
@@ -1743,8 +1778,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/selector-sizzle.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/selector-sizzle-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/selector.js": {
 		"fileType": 64,
@@ -1753,8 +1788,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/selector.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/selector-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/serialize.js": {
 		"fileType": 64,
@@ -1763,8 +1798,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/serialize.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/serialize-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.js": {
 		"fileType": 64,
@@ -1773,8 +1808,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/sizzle\/dist\/min\/sizzle-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.js": {
 		"fileType": 64,
@@ -1783,8 +1818,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/sizzle\/dist\/min\/sizzle.min-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/traversing.js": {
 		"fileType": 64,
@@ -1793,8 +1828,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/traversing.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/traversing-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/traversing\/findFilter.js": {
 		"fileType": 64,
@@ -1803,8 +1838,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/traversing\/findFilter.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/traversing\/min\/findFilter-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js": {
 		"fileType": 64,
@@ -1813,8 +1848,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/traversing\/var\/min\/rneedsContext-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/arr.js": {
 		"fileType": 64,
@@ -1823,8 +1858,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/arr.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/arr-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/class2type.js": {
 		"fileType": 64,
@@ -1833,8 +1868,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/class2type.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/class2type-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/concat.js": {
 		"fileType": 64,
@@ -1843,8 +1878,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/concat.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/concat-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/hasOwn.js": {
 		"fileType": 64,
@@ -1853,8 +1888,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/hasOwn.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/hasOwn-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/indexOf.js": {
 		"fileType": 64,
@@ -1863,8 +1898,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/indexOf.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/indexOf-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/pnum.js": {
 		"fileType": 64,
@@ -1873,8 +1908,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/pnum.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/pnum-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/push.js": {
 		"fileType": 64,
@@ -1883,8 +1918,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/push.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/push-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/rnotwhite.js": {
 		"fileType": 64,
@@ -1893,8 +1928,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/rnotwhite.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/rnotwhite-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/slice.js": {
 		"fileType": 64,
@@ -1903,8 +1938,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/slice.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/slice-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/strundefined.js": {
 		"fileType": 64,
@@ -1913,8 +1948,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/strundefined.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/strundefined-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/support.js": {
 		"fileType": 64,
@@ -1923,8 +1958,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/support.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/support-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/toString.js": {
 		"fileType": 64,
@@ -1933,8 +1968,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/toString.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/toString-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/trim.js": {
 		"fileType": 64,
@@ -1943,8 +1978,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/trim.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/trim-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/wrap.js": {
 		"fileType": 64,
@@ -1953,8 +1988,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/wrap.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/wrap-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -1974,6 +2009,14 @@
 		"inputAbbreviatedPath": "\/README.md",
 		"outputAbbreviatedPath": "\/README.html",
 		"outputPathIsSetByUser": 0
+		},
+	"\/testing.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/testing.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
@@ -1988,7 +2031,7 @@
 	"iconImageName": "compass_gray"
 	},
 "projectSettings": {
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
@@ -2100,7 +2143,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/localhost:4000",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathRelativePath": "",
@@ -2125,9 +2168,9 @@
 	"javascriptAutoOutputPathReplace2": "",
 	"javascriptAutoOutputPathStyle": 2,
 	"javascriptCreateSourceMap": 1,
-	"javascriptOutputStyle": 1,
+	"javascriptOutputStyle": 0,
 	"javascriptOutputSuffix": "-ck",
-	"javascriptSyntaxCheckerStyle": 1,
+	"javascriptSyntaxCheckerStyle": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {

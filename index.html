@@ -44,22 +44,25 @@ urls:
         <section class="panel-body">
          <p>First, we need a modern browser. The current best choice is <a href="{{page.urls.chrome}}" target="_blank">Google Chrome</a>. It is a very advanced, quick and robust browser. It has great built-in development tools, that are very helpful speeding up the development process.</p>
 
-          <!-- extensions -->
-          <section id="chrome-extensions"  class="panel panel-collapse collapse in">
-            <div class="panel-heading">
-              <h1 class="panel-title" data-toggle="collapse" data-parent="#chrome-extensions">Recommended extensions for Google Chrome</h1>
+          <section class="panel panel-default panel-collapse"><!-- extensions -->
+            <div class="panel-heading"  data-toggle="collapse" data-target="#collapse-chrome-extensions">
+              <h1 class="panel-title">
+                Recommended extensions for Google Chrome
+                <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+              </h1>
             </div>
-            <dl class="panel-body">
-              <dt><a href="{{page.urls.chrome-responsive}}">Responsive Inspector</a></dt>
-              <dd>Look how a website looks in the different browser widths defined by the developer</dd>
-              <dt><a href="{{page.urls.chrome-bootstrap-offline}}">Bootstrap 3 Offline Guide</a></dt>
-              <dd>The full Bootstrap 3 documentation saved in your browser. No internet connection needed to stay productive!</dd>
-              <dt><a href="{{page.urls.chrome-jetstrap}}">Jetstrap</a></dt>
-              <dd>Graphical editor for Bootstrap. Not without flaws, but interesting enough to fiddle around a bit.</dd>
-            </dl>
-          </section>
-          <!-- /extensions -->
 
+            <div id="collapse-chrome-extensions" class="collapse">
+              <dl class="panel-body">
+                <dt><a href="{{page.urls.chrome-responsive}}">Responsive Inspector</a></dt>
+                <dd>Look how a website looks in the different browser widths defined by the developer</dd>
+                <dt><a href="{{page.urls.chrome-bootstrap-offline}}">Bootstrap 3 Offline Guide</a></dt>
+                <dd>The full Bootstrap 3 documentation saved in your browser. No internet connection needed to stay productive!</dd>
+                <dt><a href="{{page.urls.chrome-jetstrap}}">Jetstrap</a></dt>
+                <dd>Graphical editor for Bootstrap. Not without flaws, but interesting enough to fiddle around a bit.</dd>
+              </dl>
+            </div>
+          </section><!-- /extensions -->
         </section>
       </section>
         <!-- /panel -->

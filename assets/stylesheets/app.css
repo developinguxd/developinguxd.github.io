@@ -1,7 +1,5 @@
 /* Generic styles */
-body {
-  color: $primary;
-}
+
 
 /* Remove bootstrap focus outline*/
 .btn:focus {
@@ -19,7 +17,11 @@ body {
   margin-bottom: 80px;
 }
 
-/* panel */
-.panel-step {
+/* base */
+body {
+  font-family: 'Roboto Slab', 'serif';
+}
 
+.sans {
+  font-family: 'Roboto', 'sans-serif';
 }
