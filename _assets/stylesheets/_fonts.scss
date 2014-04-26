@@ -1,0 +1,22 @@
+@import "colors";
+
+/* fonts */
+%t-normal {
+  font-family: 'Roboto Slab', 'serif';
+}
+
+.t-sans {
+  font-family: 'Roboto', 'sans-serif';
+}
+
+.t-nav {
+  @extend %t-normal;
+}
+
+.main-headline {
+  @extend .t-sans;
+  color: $primary;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 36px;
+}
