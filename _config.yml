@@ -9,3 +9,6 @@ exclude:
   - LICENSE
   - README.md
   - Gemfile
+  - Gemfile.lock
+  - uninstall_gems.sh
+  - config.codekit

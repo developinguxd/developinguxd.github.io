@@ -1,27 +1,31 @@
-/* Generic styles */
+@import '../bower_components/normalize-scss/_normalize.scss';
+@import 'browsehappy';
+@import 'generic';
+@import 'helper';
+@import 'print';
 
+/* colors */
+$primary: #9DB4C5;
+$dark: #536063;
 
-/* Remove bootstrap focus outline*/
-.btn:focus {
-  outline: none !Important;
+/* fonts */
+%t-normal {
+  font-family: 'Roboto Slab', 'serif';
 }
 
-/* Vertical gaps */
-.vgap-sm {
-  margin-bottom: 20px;
+.t-sans {
+  font-family: 'Roboto', 'sans-serif';
 }
-.vgap {
-  margin-bottom: 40px;
-}
-.vgap-lg {
-  margin-bottom: 80px;
+
+.t-nav {
+  @extend %t-normal;
+
 }
 
 /* base */
 body {
-  font-family: 'Roboto Slab', 'serif';
-}
-
-.sans {
-  font-family: 'Roboto', 'sans-serif';
+  @extend %t-normal;
+  color: $dark;
+  font-size: 24px;
+  line-height: 1.6;
 }
