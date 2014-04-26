@@ -1,0 +1,11 @@
+@import "../colors";
+
+.main-header {
+  @extend .abs-align__container;
+  background-color: $primary;
+  min-height: 240px;
+
+  &:after {
+    @extend .small-shadow--bottom;
+  }
+}

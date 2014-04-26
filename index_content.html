@@ -1,0 +1,83 @@
+---
+layout: default
+title: Developing User Experience Design
+
+urls:
+    bs: http://getbootstrap.com
+    subl: http://www.sublimetext.com/3
+    chrome: http://google.com/chrome
+    chrome-responsive: https://chrome.google.com/webstore/detail/responsive-inspector/memcdolmmnmnleeiodllgpibdjlkbpim
+    chrome-bootstrap-offline: https://chrome.google.com/webstore/detail/bootstrap-3-offline-guide/gaojaekjdcfbdfiiggmklaocglaknnkd
+    chrome-jetstrap: https://chrome.google.com/webstore/detail/jetstrap/ndidnhmjfaoocflngigkohfahebhjele
+---
+
+<h1>{{ page.title }}</h1>
+<div class="lead">Learn the basic frontend techniques to build wireframes and prototypes with code</div>
+
+<nav class="row">
+  <div class="col-md-6">
+    <button data-toggle-nav="[data-main-nav]" class="btn btn-default visible-xs" type="button">&#9776;</button>
+    <ul class="nav nav-pills nav-justified hidden-xs" data-main-nav>
+      <li class="active"><a href="/">Home</a></li>
+      <li><a href="#">Workshop</a></li>
+      <li><a href="#">Articles</a></li>
+      <li><a href="#">Projects</a></li>
+    </ul>
+  </div>
+</nav>
+
+<article class="row"> <!-- row as a container -->
+  <div class="col-md-8 col-md-offset-2">  <!-- set width of all panels -->
+    <h1 class="text-center">Let's get started</h1>
+    <p class="vgap"><strong>Congratulations!</strong> You decided on learning modern frontend techniques. You cannot imagine, how proud we are! Soon you will be building interative prototypes like a pro. And all the frontend developers around you will love you.</p>
+    <section class="vgap">
+      <h1>Step 1: Setup your computer</h1>
+      <p>We suggest installing the following applications so we all have the same setup. That makes explaining much easier.</p>
+      <p class="alert alert-info"><strong>You should use a Mac. </strong>Yes, we know that a PC can be a great machine. But for modern frontend development, it is much easier on a Mac (or on Linux). Many programming languages, apps and libs have way better support and there are a few applications that are very helpful that only exist for machines running OS X (the operating system running on your Mac).
+      </p>
+
+      <!-- panel -->
+      <section class="panel panel-default">
+        <header class="panel-heading">
+          <h1 class="panel-title">Install Google Chrome</h1>
+        </header>
+        <section class="panel-body">
+         <p>First, we need a modern browser. The current best choice is <a href="{{page.urls.chrome}}" target="_blank">Google Chrome</a>. It is a very advanced, quick and robust browser. It has great built-in development tools, that are very helpful speeding up the development process.</p>
+
+          <section class="panel panel-default panel-collapse"><!-- extensions -->
+            <div class="panel-heading"  data-toggle="collapse" data-target="#collapse-chrome-extensions">
+              <h1 class="panel-title">
+                Recommended extensions for Google Chrome
+                <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+              </h1>
+            </div>
+
+            <div id="collapse-chrome-extensions" class="collapse">
+              <dl class="panel-body">
+                <dt><a href="{{page.urls.chrome-responsive}}">Responsive Inspector</a></dt>
+                <dd>Look how a website looks in the different browser widths defined by the developer</dd>
+                <dt><a href="{{page.urls.chrome-bootstrap-offline}}">Bootstrap 3 Offline Guide</a></dt>
+                <dd>The full Bootstrap 3 documentation saved in your browser. No internet connection needed to stay productive!</dd>
+                <dt><a href="{{page.urls.chrome-jetstrap}}">Jetstrap</a></dt>
+                <dd>Graphical editor for Bootstrap. Not without flaws, but interesting enough to fiddle around a bit.</dd>
+              </dl>
+            </div>
+          </section><!-- /extensions -->
+        </section>
+      </section>
+        <!-- /panel -->
+
+        <!-- panel -->
+      <section class="panel panel-default">
+        <header class="panel-heading">
+          <h1 class="h2 panel-title">Install Sublime Text 3</h1>
+        </header>
+         <section class="panel-body">
+           <p>There are a lot of great text editors out there. This one is very fast, very popular and there are a lot of great extensions. We will use a few of them.  Go and install the free (and endless) beta of <a href="{{page.urls.subl}}">Sublime Text 3</a>.</p>
+         </section>
+      </section>
+      <!-- /panel -->
+
+   </section>
+ </div>
+</article>
