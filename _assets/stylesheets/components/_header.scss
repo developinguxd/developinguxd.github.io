@@ -1,30 +1,29 @@
 @import "_component-imports";
 
 .header {
-  @extend .abs-align__container;
-
-  @include breakpoint($small) {
-    height: 140px;
-  }
-
   background-color: $primary;
-  height: 240px;
+  height: 140px;
+  position: relative;
 
   &:after {
     @extend .small-shadow--bottom;
   }
 
+  @include breakpoint($medium) {
+    height: 240px;
+  }
 }
 
 .header-logo {
-  @extend .abs-align__element;
+  @extend .center-abs;
 
   display: block;
   height: auto;
-  max-width: 400px;
-  width: 100%;
+  max-width: 380px;
+  padding: 1em;
+  width: 80%;
 
-  @include breakpoint($small) {
-    width: 90%;
+  @include breakpoint($medium) {
+    width: 100%;
   }
 }
