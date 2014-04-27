@@ -18,9 +18,10 @@
 		<string>SourceCodePro-Light</string>
 		<string>Roboto-Bold</string>
 		<string>Roboto-Black</string>
+		<string>SourceCodePro-Bold</string>
 	</array>
 	<key>length</key>
-	<integer>156018</integer>
+	<integer>125950</integer>
 	<key>version</key>
 	<integer>36</integer>
 </dict>
