@@ -1,11 +1,30 @@
-@import "../colors";
+@import "_component-imports";
 
-.main-header {
+.header {
   @extend .abs-align__container;
+
+  @include breakpoint($small) {
+    height: 140px;
+  }
+
   background-color: $primary;
-  min-height: 240px;
+  height: 240px;
 
   &:after {
     @extend .small-shadow--bottom;
+  }
+
+}
+
+.header-logo {
+  @extend .abs-align__element;
+
+  display: block;
+  height: auto;
+  max-width: 400px;
+  width: 100%;
+
+  @include breakpoint($small) {
+    width: 90%;
   }
 }

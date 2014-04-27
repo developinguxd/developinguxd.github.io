@@ -1,0 +1,36 @@
+@import "susy";
+@import "breakpoint";
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+);
+
+/* breakpoints */
+$large: 880px;
+$medium: 768px;
+$small: max-width 480px;
+
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.page {
+  @include container;
+  @include span(12);
+
+  @include breakpoint($small) {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  @include breakpoint($medium) {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+}
