@@ -9,3 +9,33 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.link {
+  position: relative;
+  text-decoration: none;
+  // border-bottom: 4px solid $primary;
+
+  &:after {
+    background-color: $primary;
+    content: "";
+    height: 4px;
+    left: 0;
+    bottom: -4px;
+    position: absolute;
+    transition: height 0.1s ease-in-out;
+    width: 100%;
+    z-index: -1;
+  }
+
+  &:link, &:visited {
+    color: inherit;
+  }
+
+  &:hover {
+    color: #fff;
+    &:after {
+      height: 100%;
+      padding-top: 3px;
+    }
+  }
+}
