@@ -13,15 +13,15 @@
 		<string>RobotoSlab-Light</string>
 		<string>Roboto-Light</string>
 		<string>Roboto-Medium</string>
+		<string>Roboto-Bold</string>
 		<string>Roboto-Regular</string>
 		<string>SourceCodePro-Medium</string>
 		<string>SourceCodePro-Light</string>
-		<string>Roboto-Bold</string>
 		<string>Roboto-Black</string>
 		<string>SourceCodePro-Bold</string>
 	</array>
 	<key>length</key>
-	<integer>182626</integer>
+	<integer>195390</integer>
 	<key>version</key>
 	<integer>36</integer>
 </dict>

@@ -14,6 +14,24 @@ $large: 768px;
 $medium: 480px;
 $small: max-width 480px;
 
+@mixin small($content) {
+  @include breakpoint($small) {
+    $content;
+  }
+}
+
+@mixin small($content) {
+  @include breakpoint($small) {
+    $content;
+  }
+}
+
+@mixin small($content) {
+  @include breakpoint($small) {
+    $content;
+  }
+}
+
 .container {
   max-width: 880px;
   margin: 0 auto;
