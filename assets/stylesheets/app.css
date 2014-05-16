@@ -547,11 +547,11 @@ body {
   line-height: 1.6; }
 
 .link {
-  border-bottom: 4px solid #f92672;
+  border-bottom: 2px solid #f92672;
   position: relative;
   text-decoration: none;
-  -webkit-transition: border 0.2s;
-  transition: border 0.2s; }
+  -webkit-transition: border-color 0.2s;
+  transition: border-color 0.2s; }
   .link:link, .link:visited {
     color: inherit; }
   .link:hover {
@@ -784,6 +784,7 @@ body {
     display: inline-block; }
 
 .nav-link {
+  border: 1px solid transparent;
   color: #fff;
   padding: 5px 12px;
   text-decoration: none; }
@@ -793,22 +794,22 @@ body {
       display: block;
       width: 100%; } }
   .nav-link:hover, .nav-link.nav-active {
-    border: thin solid #a6e22e;
+    border: 1px solid #a6e22e;
     color: #f92672;
     margin: 0;
     position: relative; }
     .nav-link:hover:before, .nav-link:hover:after, .nav-link.nav-active:before, .nav-link.nav-active:after {
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-top: 20px solid #a6e22e;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 18px solid #a6e22e;
       content: "";
       display: block;
       position: absolute;
       right: 20px;
       top: 100%; }
     .nav-link:hover:before, .nav-link.nav-active:before {
-      border-top: 20px solid #272822;
-      margin-top: -1px;
+      border-top: 18px solid #272822;
+      margin-top: -3px;
       z-index: 1; }
 
 /*# sourceMappingURL=app.css.map */

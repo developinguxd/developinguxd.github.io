@@ -11,10 +11,10 @@ body {
 }
 
 .link {
-  border-bottom: 4px solid $color-tag;
+  border-bottom: 2px solid $color-tag;
   position: relative;
   text-decoration: none;
-  transition: border 0.2s;
+  transition: border-color 0.2s;
 
   &:link, &:visited {
     color: inherit;

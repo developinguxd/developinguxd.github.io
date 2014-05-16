@@ -31,6 +31,7 @@
 }
 
 .nav-link {
+  border: 1px solid transparent;
   color: #fff;
   padding: 5px 12px;
   text-decoration: none;
@@ -43,18 +44,18 @@
 
   &:hover,
   &.nav-active {
-    border: thin solid $color-attribute;
+    border: 1px solid $color-attribute;
     color: $color-tag;
     margin: 0;
     position: relative;
 
-    $arrow-height: 10px;
-    $arrow-width: 20px;
+    $arrow-height: 18px;
+    $arrow-width: 8px;
     &:before,
     &:after {
-      border-left: $arrow-height solid transparent;
-      border-right: $arrow-height solid transparent;
-      border-top: $arrow-width solid $color-attribute;
+      border-left: $arrow-width solid transparent;
+      border-right: $arrow-width solid transparent;
+      border-top: $arrow-height solid $color-attribute;
       content: "";
       display: block;
       position: absolute;
@@ -63,8 +64,8 @@
     }
 
     &:before {
-      border-top: $arrow-width solid $color-background;
-      margin-top: -1px;
+      border-top: $arrow-height solid $color-background;
+      margin-top: -3px;
       z-index: 1;
     }
   }
