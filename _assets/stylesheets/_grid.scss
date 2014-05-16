@@ -14,21 +14,21 @@ $large: 768px;
 $medium: 480px;
 $small: max-width 480px;
 
-@mixin small($content) {
+@mixin small() {
   @include breakpoint($small) {
-    $content;
+    @content;
   }
 }
 
-@mixin small($content) {
-  @include breakpoint($small) {
-    $content;
+@mixin medium() {
+  @include breakpoint($medium) {
+    @content;
   }
 }
 
-@mixin small($content) {
-  @include breakpoint($small) {
-    $content;
+@mixin large() {
+  @include breakpoint($large) {
+    @content;
   }
 }
 
@@ -44,7 +44,7 @@ $small: max-width 480px;
   padding-left: 0.5em;
   padding-right: 0.5em;
 
-  @include breakpoint($medium) {
+  @include medium {
     padding-left: 2em;
     padding-right: 2em;
   }

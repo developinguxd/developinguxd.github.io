@@ -1,17 +1,15 @@
+@import "component-imports";
 .nav {
   bottom: 0;
   height: 40px;
   left: 0;
-  margin: 0 auto;
+  margin: 0 auto 1em;
   max-width: 880px;
   position: absolute;
   right: 0;
   text-align: justify;
   width: 80%;
 
-  @include breakpoint($small) {
-    background-color: #fff;
-  }
 
   ul {
     margin: 0;
@@ -33,22 +31,41 @@
 }
 
 .nav-link {
+  color: #fff;
   padding: 5px 12px;
   text-decoration: none;
 
   @include small {
-    color: $primary;
+    color: $color-tag;
     display: block;
     width: 100%;
-  }
-  @include breakpoint($medium) {
-    color: #fff;
   }
 
   &:hover,
   &.nav-active {
-    background-color: #fff;
-    color: #9DB4C5;
+    border: thin solid $color-attribute;
+    color: $color-tag;
     margin: 0;
+    position: relative;
+
+    $arrow-height: 10px;
+    $arrow-width: 20px;
+    &:before,
+    &:after {
+      border-left: $arrow-height solid transparent;
+      border-right: $arrow-height solid transparent;
+      border-top: $arrow-width solid $color-attribute;
+      content: "";
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 100%;
+    }
+
+    &:before {
+      border-top: $arrow-width solid $color-background;
+      margin-top: -1px;
+      z-index: 1;
+    }
   }
 }

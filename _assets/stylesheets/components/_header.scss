@@ -1,26 +1,30 @@
 @import "component-imports";
 
 .header {
-  background-color: $primary;
-  height: 140px;
+  background-color: $color-background;
+  height: 300px;
   position: relative;
 
   &:after {
     @extend .small-shadow--bottom;
   }
 
-  @include breakpoint($medium) {
-    height: 240px;
-  }
 }
 
 .header-logo {
   @extend .center-abs;
 
-  display: block;
-  height: auto;
-  max-width: 380px;
-  padding: 1em;
+  background-color: $color-highlight;
+  display: table;
+  transform: translateY(-0.6em);
+  vertical-align: middle;
+
+  > img {
+    display: table-cell;
+    margin: 0 auto;
+    max-height: 70px;
+    padding: 0.3em 0 0.1em;
+  }
 
   @include breakpoint($small) {
     bottom: auto;
