@@ -17,7 +17,7 @@ strong {
   border-bottom: 2px solid $color-tag;
   position: relative;
   text-decoration: none;
-  transition: border-color 0.2s;
+  transition: border-bottom 0.2s;
 
   &:link, &:visited {
     color: inherit;

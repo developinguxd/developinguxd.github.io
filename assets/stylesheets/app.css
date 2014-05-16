@@ -551,8 +551,8 @@ strong {
   border-bottom: 2px solid #f92672;
   position: relative;
   text-decoration: none;
-  -webkit-transition: border-color 0.2s;
-  transition: border-color 0.2s; }
+  -webkit-transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s; }
   .link:link, .link:visited {
     color: inherit; }
   .link:hover {
