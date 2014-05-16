@@ -538,6 +538,7 @@ th {
 
 /* base */
 body {
+  background-color: #fcfcfa;
   color: #272822;
   font-size: 24px;
   line-height: 1.6; }
@@ -783,7 +784,7 @@ body {
 
 .nav-link {
   border: 1px solid transparent;
-  color: #fff;
+  color: #fcfcfa;
   display: none;
   padding: 5px 12px;
   text-decoration: none; }
