@@ -1,35 +1,48 @@
 @import "component-imports";
 
 .nav {
-  bottom: 0;
-  height: 40px;
-  left: 0;
-  margin: 0 auto 1em;
+  margin: 0 auto;
   max-width: 880px;
-  position: absolute;
-  right: 0;
+  position: relative;
   text-align: justify;
 
+  // burger nav symbol
+  &:after {
+    bottom: 0;
+    color: $color-highlight;
+    content: "≡";
+    display: block;
+    font-size: 1.7em;
+    pointer-events: none;
+    position: absolute;
+    right: 0.6em;
+    top: -0.3em;
+
+    @include medium {
+      content: none;
+    }
+  }
+
   ul {
-    background-color: $color-background;
     margin: 0;
     padding: 0;
+    line-height: 1; // for the enable-justify hack
     list-style-type: none;
 
     @include medium {
       background-color: transparent;
     }
 
+    // enable-justify
     &:after {
       content: "";
       display: inline-block;
-      height: 0;
-      position: relative;
       width: 100%;
     }
   }
 
   li {
+    line-height: 1.5;
     margin: 0 5px;
 
     @include medium {
@@ -41,10 +54,10 @@
 .nav-link {
   border: 1px solid transparent;
   color: #fff;
+  display: none;
   padding: 5px 12px;
   text-decoration: none;
 
-  display: none;
 
   &.nav-link--active,
   .nav--active & {

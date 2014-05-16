@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ==========================================================================
    Normalize.scss settings
    ========================================================================== */
@@ -505,7 +506,7 @@ th {
       padding-left: 2em;
       padding-right: 2em; } }
 
-.center-abs, .header-logo {
+.center-abs {
   bottom: 0;
   left: 0;
   margin: auto auto;
@@ -645,26 +646,17 @@ body {
 
 .header {
   background-color: #272822;
-  height: 8em;
-  position: relative; }
-  @media (min-width: 620px) {
-    .header {
-      height: 14em; } }
+  padding-top: 5%; }
 
 .header-logo {
   background-color: #3e3d32;
-  display: table;
-  -webkit-transform: translateY(-0.6em);
-  -ms-transform: translateY(-0.6em);
-  transform: translateY(-0.6em);
-  vertical-align: middle;
-  width: 100%; }
+  margin-bottom: 5%; }
   .header-logo > img {
-    display: table-cell;
+    display: block;
     margin: 0 auto;
     max-height: 70px;
     max-width: 90%;
-    padding: 0.3em 0 0.1em; }
+    padding: 0.3em 0 0; }
 
 /* fonts */
 .t-nav, body {
@@ -707,9 +699,9 @@ body {
       padding-right: 2em; } }
 
 .article {
-  padding-bottom: 80px; }
+  padding-bottom: 10%; }
   .article > h1 {
-    margin-top: 80px;
+    margin-top: 10%;
     margin-bottom: 20px; }
 
 /* fonts */
@@ -753,18 +745,27 @@ body {
       padding-right: 2em; } }
 
 .nav {
-  bottom: 0;
-  height: 40px;
-  left: 0;
-  margin: 0 auto 1em;
+  margin: 0 auto;
   max-width: 880px;
-  position: absolute;
-  right: 0;
+  position: relative;
   text-align: justify; }
+  .nav:after {
+    bottom: 0;
+    color: #3e3d32;
+    content: "≡";
+    display: block;
+    font-size: 1.7em;
+    pointer-events: none;
+    position: absolute;
+    right: 0.6em;
+    top: -0.3em; }
+    @media (min-width: 620px) {
+      .nav:after {
+        content: none; } }
   .nav ul {
-    background-color: #272822;
     margin: 0;
     padding: 0;
+    line-height: 1;
     list-style-type: none; }
     @media (min-width: 620px) {
       .nav ul {
@@ -772,10 +773,9 @@ body {
     .nav ul:after {
       content: "";
       display: inline-block;
-      height: 0;
-      position: relative;
       width: 100%; }
   .nav li {
+    line-height: 1.5;
     margin: 0 5px; }
     @media (min-width: 620px) {
       .nav li {
@@ -784,9 +784,9 @@ body {
 .nav-link {
   border: 1px solid transparent;
   color: #fff;
+  display: none;
   padding: 5px 12px;
-  text-decoration: none;
-  display: none; }
+  text-decoration: none; }
   .nav-link.nav-link--active, .nav--active .nav-link {
     display: block; }
   @media (min-width: 620px) {
@@ -810,4 +810,5 @@ body {
       border-top: 18px solid #272822;
       margin-top: -3px;
       z-index: 1; }
+
 /*# sourceMappingURL=app.css.map */
