@@ -82,23 +82,12 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_assets\/javascripts\/_toggle_caret.js": {
+	"\/_assets\/javascripts\/_main-nav.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/_assets\/javascripts\/_toggle_caret.js",
-		"outputAbbreviatedPath": "\/assets\/javascripts\/_toggle_caret.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_assets\/javascripts\/_toggle_nav.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/_assets\/javascripts\/_toggle_nav.js",
-		"outputAbbreviatedPath": "\/assets\/javascripts\/_toggle_nav.min.js",
+		"inputAbbreviatedPath": "\/_assets\/javascripts\/_main-nav.js",
+		"outputAbbreviatedPath": "\/assets\/javascripts\/_main-nav.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -107,12 +96,12 @@
 	"\/_assets\/javascripts\/application.js": {
 		"fileType": 64,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_assets\/javascripts\/application.js",
 		"outputAbbreviatedPath": "\/assets\/javascripts\/application.min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 2,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
 	"\/_assets\/stylesheets\/_base.scss": {
@@ -288,6 +277,22 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_assets\/stylesheets\/components\/_nav.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/stylesheets\/components\/_nav.scss",
+		"outputAbbreviatedPath": "\/assets\/stylesheets\/components\/_nav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
@@ -658,8 +663,8 @@
 		},
 	"\/_layouts\/default.html": {
 		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_layouts\/default.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
@@ -667,8 +672,8 @@
 		},
 	"\/_layouts\/post.html": {
 		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_layouts\/post.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
@@ -707,6 +712,91 @@
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_posts\/2014-03-17-third-entry.md",
 		"outputAbbreviatedPath": "\/_posts\/2014-03-17-third-entry.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/404.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/404.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/apple-touch-icon-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10721,
+		"inputAbbreviatedPath": "\/_site\/apple-touch-icon-precomposed.png",
+		"outputAbbreviatedPath": "\/_site\/apple-touch-icon-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1134,
+		"inputAbbreviatedPath": "\/_site\/favicon.png",
+		"outputAbbreviatedPath": "\/_site\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/index_content.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/index_content.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/setup\/first-entry.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/setup\/first-entry.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/setup\/second-entry.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/setup\/second-entry.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/test\/third-entry.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/test\/third-entry.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/testing.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/testing.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -849,6 +939,14 @@
 	],
 "lastSavedByUser": "Jerry Badabam",
 "manualImportLinks": {
+	"\/_assets\/javascripts\/application.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/_assets\/javascripts\/_main-nav.js",
+			"position": 0,
+			"type": 1
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "_assets",
@@ -1422,7 +1520,7 @@
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 1,
 	"shouldRunBless": 0,
-	"skippedItemsString": "_cache, logs, .hg, _logs, cache, \/_assets\/bower_components\/jquery\/src, .git, \/_site, log, \/_assets\/bower_components\/normalize.scss\/tests, .svn",
+	"skippedItemsString": "_cache, logs, .hg, _logs, cache, \/_assets\/bower_components\/jquery\/src, .git, log, \/_assets\/bower_components\/normalize.scss\/tests, .svn",
 	"slimAutoOutputPathRelativePath": "",
 	"slimAutoOutputPathReplace1": "",
 	"slimAutoOutputPathReplace2": "",
@@ -1515,7 +1613,7 @@
 			},
 		"indent-level": {
 			"active": 1,
-			"flagValue": 4
+			"flagValue": 2
 			},
 		"indent-start": {
 			"active": 0,

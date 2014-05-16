@@ -10,8 +10,8 @@ $susy: (
 );
 
 /* breakpoints */
-$large: 768px;
-$medium: 480px;
+$large: 700px;
+$medium: 620px;
 $small: max-width 480px;
 
 @mixin small() {

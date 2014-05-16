@@ -1,4 +1,5 @@
 @import "component-imports";
+
 .nav {
   bottom: 0;
   height: 40px;
@@ -8,13 +9,16 @@
   position: absolute;
   right: 0;
   text-align: justify;
-  width: 80%;
-
 
   ul {
+    background-color: $color-background;
     margin: 0;
     padding: 0;
     list-style-type: none;
+
+    @include medium {
+      background-color: transparent;
+    }
 
     &:after {
       content: "";
@@ -26,7 +30,11 @@
   }
 
   li {
-    display: inline-block;
+    margin: 0 5px;
+
+    @include medium {
+      display: inline-block;
+    }
   }
 }
 
@@ -36,14 +44,19 @@
   padding: 5px 12px;
   text-decoration: none;
 
-  @include small {
-    color: $color-tag;
+  display: none;
+
+  &.nav-link--active,
+  .nav--active & {
     display: block;
-    width: 100%;
+  }
+
+  @include medium {
+    display: block;
   }
 
   &:hover,
-  &.nav-active {
+  &.nav-link--active {
     border: 1px solid $color-attribute;
     color: $color-tag;
     margin: 0;

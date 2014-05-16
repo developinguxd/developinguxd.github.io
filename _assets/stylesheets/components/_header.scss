@@ -2,13 +2,12 @@
 
 .header {
   background-color: $color-background;
-  height: 300px;
+  height: 8em;
   position: relative;
 
-  &:after {
-    @extend .small-shadow--bottom;
+  @include medium {
+    height: 14em;
   }
-
 }
 
 .header-logo {
@@ -18,21 +17,13 @@
   display: table;
   transform: translateY(-0.6em);
   vertical-align: middle;
+  width: 100%;
 
   > img {
     display: table-cell;
     margin: 0 auto;
     max-height: 70px;
+    max-width: 90%;
     padding: 0.3em 0 0.1em;
-  }
-
-  @include breakpoint($small) {
-    bottom: auto;
-    margin: 0 auto;
-    width: 80%;
-  }
-
-  @include breakpoint($medium) {
-    width: 100%;
   }
 }

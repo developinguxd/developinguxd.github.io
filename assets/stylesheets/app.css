@@ -500,7 +500,7 @@ th {
     content: " ";
     display: block;
     clear: both; }
-  @media (min-width: 480px) {
+  @media (min-width: 620px) {
     .page {
       padding-left: 2em;
       padding-right: 2em; } }
@@ -536,11 +536,6 @@ th {
   font-size: 36px; }
 
 /* base */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
 body {
   color: #272822;
   font-size: 24px;
@@ -592,16 +587,16 @@ body {
     content: " ";
     display: block;
     clear: both; }
-  @media (min-width: 480px) {
+  @media (min-width: 620px) {
     .page {
       padding-left: 2em;
       padding-right: 2em; } }
 
-.small-shadow--bottom, .header:after {
+.small-shadow--bottom {
   background-image: -webkit-linear-gradient(270deg, transparent 0%, rgba(0, 0, 0, 0.2) 100%);
   background-image: linear-gradient(-180deg, transparent 0%, rgba(0, 0, 0, 0.2) 100%); }
 
-.small-shadow--bottom, .header:after {
+.small-shadow--bottom {
   bottom: 0;
   content: "";
   height: 3px;
@@ -643,15 +638,18 @@ body {
     content: " ";
     display: block;
     clear: both; }
-  @media (min-width: 480px) {
+  @media (min-width: 620px) {
     .page {
       padding-left: 2em;
       padding-right: 2em; } }
 
 .header {
   background-color: #272822;
-  height: 300px;
+  height: 8em;
   position: relative; }
+  @media (min-width: 620px) {
+    .header {
+      height: 14em; } }
 
 .header-logo {
   background-color: #3e3d32;
@@ -659,20 +657,14 @@ body {
   -webkit-transform: translateY(-0.6em);
   -ms-transform: translateY(-0.6em);
   transform: translateY(-0.6em);
-  vertical-align: middle; }
+  vertical-align: middle;
+  width: 100%; }
   .header-logo > img {
     display: table-cell;
     margin: 0 auto;
     max-height: 70px;
+    max-width: 90%;
     padding: 0.3em 0 0.1em; }
-  @media (max-width: 480px) {
-    .header-logo {
-      bottom: auto;
-      margin: 0 auto;
-      width: 80%; } }
-  @media (min-width: 480px) {
-    .header-logo {
-      width: 100%; } }
 
 /* fonts */
 .t-nav, body {
@@ -709,7 +701,7 @@ body {
     content: " ";
     display: block;
     clear: both; }
-  @media (min-width: 480px) {
+  @media (min-width: 620px) {
     .page {
       padding-left: 2em;
       padding-right: 2em; } }
@@ -755,7 +747,7 @@ body {
     content: " ";
     display: block;
     clear: both; }
-  @media (min-width: 480px) {
+  @media (min-width: 620px) {
     .page {
       padding-left: 2em;
       padding-right: 2em; } }
@@ -768,12 +760,15 @@ body {
   max-width: 880px;
   position: absolute;
   right: 0;
-  text-align: justify;
-  width: 80%; }
+  text-align: justify; }
   .nav ul {
+    background-color: #272822;
     margin: 0;
     padding: 0;
     list-style-type: none; }
+    @media (min-width: 620px) {
+      .nav ul {
+        background-color: transparent; } }
     .nav ul:after {
       content: "";
       display: inline-block;
@@ -781,24 +776,28 @@ body {
       position: relative;
       width: 100%; }
   .nav li {
-    display: inline-block; }
+    margin: 0 5px; }
+    @media (min-width: 620px) {
+      .nav li {
+        display: inline-block; } }
 
 .nav-link {
   border: 1px solid transparent;
   color: #fff;
   padding: 5px 12px;
-  text-decoration: none; }
-  @media (max-width: 480px) {
+  text-decoration: none;
+  display: none; }
+  .nav-link.nav-link--active, .nav--active .nav-link {
+    display: block; }
+  @media (min-width: 620px) {
     .nav-link {
-      color: #f92672;
-      display: block;
-      width: 100%; } }
-  .nav-link:hover, .nav-link.nav-active {
+      display: block; } }
+  .nav-link:hover, .nav-link.nav-link--active {
     border: 1px solid #a6e22e;
     color: #f92672;
     margin: 0;
     position: relative; }
-    .nav-link:hover:before, .nav-link:hover:after, .nav-link.nav-active:before, .nav-link.nav-active:after {
+    .nav-link:hover:before, .nav-link:hover:after, .nav-link.nav-link--active:before, .nav-link.nav-link--active:after {
       border-left: 8px solid transparent;
       border-right: 8px solid transparent;
       border-top: 18px solid #a6e22e;
@@ -807,9 +806,8 @@ body {
       position: absolute;
       right: 20px;
       top: 100%; }
-    .nav-link:hover:before, .nav-link.nav-active:before {
+    .nav-link:hover:before, .nav-link.nav-link--active:before {
       border-top: 18px solid #272822;
       margin-top: -3px;
       z-index: 1; }
-
 /*# sourceMappingURL=app.css.map */

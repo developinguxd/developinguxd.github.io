@@ -1,10 +1,3 @@
-
-//# sourceMappingURL=./application.min.map
-
-/* **********************************************
-     Begin _main-nav.js
-********************************************** */
-
 $(function () {
   "use strict";
 
