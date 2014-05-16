@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16903",
+"creatorBuild": "16921",
 "files": {
 	"\/404.html": {
 		"fileType": 8192,
@@ -730,12 +730,23 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1226,
+		"initialSize": 10721,
 		"inputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/assets\/images\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1464,
+		"inputAbbreviatedPath": "\/assets\/images\/favicon.png",
+		"outputAbbreviatedPath": "\/assets\/images\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/assets\/images\/logo.png": {
 		"fileType": 32768,
@@ -746,7 +757,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/images\/logo@2x.png": {
 		"fileType": 32768,
@@ -757,7 +768,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/logo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/javascripts\/application.min.js": {
 		"fileType": 64,
@@ -803,7 +814,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1064,
+		"initialSize": 1134,
 		"inputAbbreviatedPath": "\/favicon.png",
 		"outputAbbreviatedPath": "\/favicon.png",
 		"outputPathIsOutsideProject": 0,
@@ -859,7 +870,7 @@
 	"bowerAbbreviatedPath": "_assets",
 	"displayValue": "developinguxd.github.io",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "compass_gray"
+	"iconImageName": "\/apple-touch-icon-precomposed.png"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
@@ -926,6 +937,14 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"no_empty_param_list": {
 			"active": 0,
 			"flagValue": -1
@@ -935,6 +954,10 @@
 			"flagValue": -1
 			},
 		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -960,6 +983,10 @@
 			},
 		"no_trailing_whitespace": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"non_empty_constructor_needs_parens": {
@@ -1080,10 +1107,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"gcl": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"globalstrict": {
 			"active": 0,
 			"flagValue": -1
@@ -1196,10 +1219,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"onevar": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"phantom": {
 			"active": 0,
 			"flagValue": -1
@@ -1236,10 +1255,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"smarttabs": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"strict": {
 			"active": 1,
 			"flagValue": -1
@@ -1252,10 +1267,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"trailing": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"typed": {
 			"active": 0,
 			"flagValue": -1
@@ -1266,10 +1277,6 @@
 			},
 		"unused": {
 			"active": 1,
-			"flagValue": -1
-			},
-		"white": {
-			"active": 0,
 			"flagValue": -1
 			},
 		"withstmt": {
