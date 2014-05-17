@@ -1,15 +1,23 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
-# TEAM
+# /* TEAM */
 
-    <name> -- <role> -- <twitter>
+    Information Architect: Cornelia Erbs -- Conni
+    Contact: post [at] corneliaerbs [dot] de
+    Website: http://corneliaerbs.de
 
-# THANKS
+    Software Engineer: Jeremias Dombrowsky -- Jerry
+    Contact: jerry [at] badabam [dot] de
+    Website: http://badabam.de
 
-    <name>
+# /* THANKS */
 
-# TECHNOLOGY COLOPHON
+    iakonferenz.org -- for letting us introduce this project
 
-    HTML5, CSS3
-    jQuery, Modernizr
+# /* SITE */
+
+    Standards: HTML5, CSS3
+    Components: jQuery, Normalize.css
+    Development: Sass (SCSS), Autoprefixer, Bower, Jekyll
+    Software: Sketch, Sublime Text, CodeKit, Github

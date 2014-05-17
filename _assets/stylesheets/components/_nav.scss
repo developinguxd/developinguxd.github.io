@@ -22,32 +22,32 @@
       content: none;
     }
   }
+}
 
-  ul {
-    margin: 0;
-    padding: 0;
-    line-height: 1; // for the enable-justify hack
-    list-style-type: none;
+.nav-list {
+  margin: 0;
+  padding: 0;
+  line-height: 1; // for the enable-justify hack
+  list-style-type: none;
 
-    @include medium {
-      background-color: transparent;
-    }
-
-    // enable-justify
-    &:after {
-      content: "";
-      display: inline-block;
-      width: 100%;
-    }
+  @include medium {
+    background-color: transparent;
   }
 
-  li {
-    line-height: 1.5;
-    margin: 0 5px;
+  // enable-justify
+  &:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+}
 
-    @include medium {
-      display: inline-block;
-    }
+.nav-list-item {
+  line-height: 1.5;
+  margin: 0 5px;
+
+  @include medium {
+    display: inline-block;
   }
 }
 
@@ -58,41 +58,40 @@
   padding: 5px 12px;
   text-decoration: none;
 
-
-  &.nav-link--active,
-  .nav--active & {
-    display: block;
-  }
-
   @include medium {
     display: block;
   }
+}
 
-  &:hover,
-  &.nav-link--active {
-    border: 1px solid $color-attribute;
-    color: $color-tag;
-    margin: 0;
-    position: relative;
+.nav-link--active,
+.nav--active .nav-link {
+  display: block;
+}
 
-    $arrow-height: 18px;
-    $arrow-width: 8px;
-    &:before,
-    &:after {
-      border-left: $arrow-width solid transparent;
-      border-right: $arrow-width solid transparent;
-      border-top: $arrow-height solid $color-attribute;
-      content: "";
-      display: block;
-      position: absolute;
-      right: 20px;
-      top: 100%;
-    }
+.nav-link:hover,
+.nav-link--active {
+  border: 1px solid $color-attribute;
+  color: $color-tag;
+  margin: 0;
+  position: relative;
 
-    &:before {
-      border-top: $arrow-height solid $color-background;
-      margin-top: -3px;
-      z-index: 1;
-    }
+  $arrow-height: 18px;
+  $arrow-width: 8px;
+  &:before,
+  &:after {
+    border-left: $arrow-width solid transparent;
+    border-right: $arrow-width solid transparent;
+    border-top: $arrow-height solid $color-attribute;
+    content: "";
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 100%;
+  }
+
+  &:before {
+    border-top: $arrow-height solid $color-background;
+    margin-top: -3px;
+    z-index: 1;
   }
 }

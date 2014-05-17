@@ -12,3 +12,13 @@ exclude:
   - Gemfile.lock
   - uninstall_gems.sh
   - config.codekit
+
+navigation:
+  - title: Start learning
+    url: /index.html
+  - title: Workshop
+    url: /workshop.html
+  - title: Projects
+    url: /projects.html
+  - title: Contact
+    url: /contact.html

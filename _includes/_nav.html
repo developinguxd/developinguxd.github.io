@@ -1,8 +1,14 @@
 <nav id="main-nav" class="nav">
-  <ul>
-    <li><a href="#" class="nav-link nav-link--active">Start learning</a></li>
-    <li><a href="#" class="nav-link">Workshop</a></li>
-    <li><a href="#" class="nav-link">Projects</a></li>
-    <li><a href="#" class="nav-link">Contact</a></li>
-  </ul>
+    <ul class="nav-list">
+    {% for link in site.navigation %}
+        {% assign active = nil %}
+        {% if page.url contains link.url %}
+            {% assign active = ' nav-link--active' %}
+        {% endif %}
+        <li class="nav-list-item">
+            <a class="nav-link{{ active }}" href="{{ link.url }}">{{ link.title }}</a>
+        </li>
+    {% endfor %}
+    </ul>
 </nav>
+

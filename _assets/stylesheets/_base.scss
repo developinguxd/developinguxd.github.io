@@ -3,7 +3,7 @@ body {
   @extend %t-normal;
 
   background-color: $color-paper;
-  color: $color-background;
+  color: $color-highlight;
   font-size: 24px;
   line-height: 1.6;
 }
@@ -13,8 +13,7 @@ strong {
 }
 
 .link {
-  background-color: $color-light-grey;
-  border-bottom: 2px solid $color-tag;
+  border-bottom: 2px solid $color-alt;
   position: relative;
   text-decoration: none;
   transition: border-bottom 0.2s;
@@ -24,6 +23,19 @@ strong {
   }
 
   &:hover {
-    border-bottom: 2px solid $color-alt;
+    border-color: darken($color-alt, 15%);
   }
 }
+
+
+  .link--light {
+    &:link, &:visited {
+      border-bottom: 1px solid $color-alt;
+      color: inherit;
+      text-decoration: none;
+    }
+
+    &:hover {
+      color: lighten($color-highlight, 30%);
+    }
+  }
