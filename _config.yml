@@ -18,7 +18,7 @@ navigation:
     url: /index.html
   - title: Workshop
     url: /workshop.html
-  - title: Projects
-    url: /projects.html
+  - title: About
+    url: "/about.html"
   - title: Contact
     url: /contact.html
