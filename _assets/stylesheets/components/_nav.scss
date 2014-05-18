@@ -67,7 +67,7 @@
   }
 
   .nav-link--active,
-  .nav--active .nav-link {
+  &.nav--active .nav-link {
     display: block;
   }
 
