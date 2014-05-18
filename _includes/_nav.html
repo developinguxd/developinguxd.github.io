@@ -2,8 +2,8 @@
     <ul class="nav-list">
     {% for link in site.navigation %}
         {% assign active = nil %}
-        {% if page.url contains link.url %}
-            {% assign active = ' nav-link--active' %}
+        {% if page.url contains link.url or page.url contains 'datenschutz' and forloop.first %}
+          {% assign active = ' nav-link--active' %}
         {% endif %}
         <li class="nav-list-item">
             <a class="nav-link{{ active }}" href="{{ link.url }}">{{ link.title }}</a>

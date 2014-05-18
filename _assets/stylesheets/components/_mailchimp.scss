@@ -21,7 +21,7 @@
 
     @include medium {
     float: left;
-    width: 60%;
+    width: 50%;
     }
   }
 
@@ -35,14 +35,13 @@
     display: block;
     font-weight: bold;
     height: 2em;
-    max-width: 300px;
     margin-top: 0.5em;
     width: 100%;
 
     @include medium {
       float: left;
       margin: 0 0 0 0.5em;
-      width: 35%;
+      width: 40%;
     }
   }
 }
