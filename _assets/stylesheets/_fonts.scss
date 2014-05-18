@@ -13,10 +13,19 @@
   @extend %t-normal;
 }
 
+h1,
 .main-headline {
   @extend .t-sans;
   color: $color-tag;
   text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 36px;
+}
+
+h2,
+.sub-headline {
+  @extend %t-normal;
+  color: $color-tag;
   font-weight: lighter;
   font-size: 36px;
 }
