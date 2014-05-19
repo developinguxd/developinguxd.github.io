@@ -1,4 +1,4 @@
-@import '../bower_components/normalize-scss/_normalize.scss';
+@import '../bower_components/normalize-scss/_normalize';
 @import 'vendor/browsehappy';
 @import 'helper';
 @import 'print';
@@ -9,8 +9,8 @@
 @import 'fonts';
 @import 'base';
 
-@import 'components/header';
-@import 'components/footer';
+@import 'components/page-header';
+@import 'components/page-footer';
 @import 'components/article';
-@import 'components/nav';
+@import 'components/page-nav';
 @import 'components/mailchimp';

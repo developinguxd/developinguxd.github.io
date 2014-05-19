@@ -1,11 +1,11 @@
 @import "component-imports";
 
-.header {
+.page-header {
   background-color: $color-background;
   padding-top: 5%;
 }
 
-.header-logo {
+.page-header__logo {
   background-color: $color-highlight;
   margin-bottom: 5%;
 

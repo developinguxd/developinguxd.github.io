@@ -32,12 +32,12 @@ $small: max-width 480px;
   }
 }
 
-.container {
+.grid__container {
   max-width: 880px;
   margin: 0 auto;
 }
 
-.page {
+.grid__block {
   @include container;
   @include span(12);
 

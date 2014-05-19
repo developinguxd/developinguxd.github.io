@@ -1,19 +1,17 @@
 $(function () {
   "use strict";
 
-  var nav      = $("#main-nav"),
-      navLinks = nav.find(".nav-link");
+  var nav      = $("#page-nav"),
+      navLinks = nav.find(".page-nav__link");
 
   function onNavLinkClick (event) {
-    debugger;
-    if ($(event.currentTarget).hasClass("nav-link--active")) {
+    if ($(event.currentTarget).hasClass("page-nav__link--active")) {
       event.preventDefault();
     }
-    debugger;
     navLinks.each(function () {
-      $(this).toggleClass("nav-link--active", this === event.currentTarget);
+      $(this).toggleClass("page-nav__link--active", this === event.currentTarget);
     });
-    nav.toggleClass("nav--active");
+    nav.toggleClass("page-nav__active");
   }
 
 

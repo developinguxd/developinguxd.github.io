@@ -1,12 +1,12 @@
-<nav id="main-nav" class="nav">
-    <ul class="nav-list">
+<nav id="page-nav" class="page-nav">
+    <ul class="page-nav__list">
     {% for link in site.navigation %}
         {% assign active = nil %}
         {% if page.url contains link.url or page.url contains 'datenschutz' and forloop.first %}
-          {% assign active = ' nav-link--active' %}
+          {% assign active = ' page-nav__link--active' %}
         {% endif %}
-        <li class="nav-list-item">
-            <a class="nav-link{{ active }}" href="{{ link.url }}">{{ link.title }}</a>
+        <li class="page-nav__item">
+            <a class="page-nav__link{{ active }}" href="{{ link.url }}">{{ link.title }}</a>
         </li>
     {% endfor %}
     </ul>

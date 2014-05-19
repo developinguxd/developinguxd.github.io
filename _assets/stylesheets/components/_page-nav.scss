@@ -1,6 +1,6 @@
 @import "component-imports";
 
-.nav {
+.page-nav {
   margin: 0 auto;
   max-width: 880px;
   position: relative;
@@ -24,7 +24,7 @@
   }
 }
 
-.nav-list {
+.page-nav__list {
   margin: 0;
   padding: 0;
   line-height: 1; // for the enable-justify hack
@@ -42,7 +42,7 @@
   }
 }
 
-.nav-list-item {
+.page-nav__item {
   line-height: 1.5;
   margin: 0 5px;
 
@@ -52,8 +52,8 @@
 }
 
 // needed for specifity
-.nav {
-  .nav-link {
+.page-nav {
+  .page-nav__link {
     border: 1px solid transparent;
     color: $color-paper;
     display: none;
@@ -66,13 +66,13 @@
     }
   }
 
-  .nav-link--active,
-  &.nav--active .nav-link {
+  .page-nav__link--active,
+  &.page-nav--active .page-nav__link {
     display: block;
   }
 
-  .nav-link:hover,
-  .nav-link--active {
+  .page-nav__link:hover,
+  .page-nav__link--active {
     border: 1px solid $color-attribute;
     color: $color-tag;
     margin: 0;
