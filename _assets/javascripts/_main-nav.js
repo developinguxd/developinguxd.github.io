@@ -1,7 +1,7 @@
 $(function () {
   "use strict";
 
-  var nav      = $("#page-nav"),
+  var nav      = $("[data-page-nav]"),
       navLinks = nav.find(".page-nav__link");
 
   function onNavLinkClick (event) {
@@ -11,7 +11,7 @@ $(function () {
     navLinks.each(function () {
       $(this).toggleClass("page-nav__link--active", this === event.currentTarget);
     });
-    nav.toggleClass("page-nav__active");
+    nav.toggleClass("page-nav--active");
   }
 
 
