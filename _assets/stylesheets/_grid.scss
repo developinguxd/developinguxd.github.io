@@ -33,8 +33,9 @@ $small: max-width 480px;
 }
 
 .grid__container {
-  max-width: 880px;
   margin: 0 auto;
+  max-width: 880px;
+  overflow: hidden;
 }
 
 .grid__block {
