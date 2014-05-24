@@ -31,8 +31,8 @@
 		"outputAbbreviatedPath": "\/assets\/bower_components\/ajaxchimp\/jquery.ajaxchimp.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/_assets\/bower_components\/ajaxchimp\/jquery.ajaxchimp.langs.js": {
 		"fileType": 64,
@@ -1038,7 +1038,7 @@
 "manualImportLinks": {
 	"\/_assets\/javascripts\/application.js": [
 		{
-			"followForSyntaxChecking": 1,
+			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/_assets\/bower_components\/ajaxchimp\/jquery.ajaxchimp.js",
 			"position": 0,
 			"type": 1
