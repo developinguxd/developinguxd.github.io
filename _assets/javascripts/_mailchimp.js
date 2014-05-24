@@ -8,11 +8,11 @@
   }
 
   function addSubmitHandler () {
-    $("#mailchimp-form").find("button, input").prop("disabled", true)
+    $("#mailchimp-form").find("button, input").prop("disabled", true);
   }
 
   function removeSubmitHandler () {
-    $("#mailchimp-form").find("button, input").prop("disabled", false)
+    $("#mailchimp-form").find("button, input").prop("disabled", false);
   }
 
 
