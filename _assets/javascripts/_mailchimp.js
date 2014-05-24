@@ -3,7 +3,6 @@
 
   $(function () {
     var form    = $("#mc-embedded-subscribe-form"),
-        input   = form.find("input[name=EMAIL]"),
         action  = form.attr("action"),
         success = form.find(".js-done-response"),
         error   = form.find(".js-fail-response"),
@@ -15,7 +14,7 @@
 
     form.on("submit", function (event) {
       event.preventDefault();
-      request = $.post(action);
+      request = $.post(action, form.serialize());
       request.done(function onRequestDone (result) {
         reset();
         result === "success" && success.text("Well done! See you soon!");
