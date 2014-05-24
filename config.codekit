@@ -320,7 +320,7 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
+		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
 	"\/_assets\/stylesheets\/components\/_article.scss": {
