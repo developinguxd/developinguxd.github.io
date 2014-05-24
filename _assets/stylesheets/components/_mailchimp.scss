@@ -14,7 +14,7 @@
   }
 
   label.valid + input,
-  label.valid + button[type="submit"] {
+  label.valid + input + button[type="submit"] {
     display: none;
   }
 
