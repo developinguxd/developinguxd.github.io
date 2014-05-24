@@ -8,13 +8,11 @@
   }
 
   function addSubmitHandler () {
-    $("#mailchimp-form").ajaxChimp({
-      callback: onDone
-    });
+    $("#mailchimp-form").find("button, input").prop("disabled", true)
   }
 
   function removeSubmitHandler () {
-    $("#mailchimp-form").off();
+    $("#mailchimp-form").find("button, input").prop("disabled", false)
   }
 
 
@@ -26,6 +24,8 @@
     addSubmitHandler();
   });
 
-  addSubmitHandler();
+  $("#mailchimp-form").ajaxChimp({
+    callback: onDone
+  });
 
 }(jQuery, this));
