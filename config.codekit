@@ -891,6 +891,12 @@
 			"linkedFileAbbreviatedPath": "\/_assets\/javascripts\/_main-nav.js",
 			"position": 0,
 			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/_assets\/javascripts\/_mailchimp.js",
+			"position": 1,
+			"type": 1
 			}
 		]
 	},
