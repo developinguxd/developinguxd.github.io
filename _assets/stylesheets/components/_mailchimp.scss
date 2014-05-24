@@ -15,6 +15,7 @@
 
   label.valid {
     background-color: #a6e22e;
+    display: inline;
     padding: 5px 10px;
 
     &:after {
@@ -57,6 +58,10 @@
 
     &:hover {
       background-color: $color-attribute;
+    }
+
+    &.sending {
+      background-color: $color-tag;
     }
 
     @include medium {
