@@ -13,6 +13,10 @@
     color: $color-tag;
   }
 
+  label.valid {
+    color: $color-attribute;
+  }
+
   label.valid + input,
   label.valid + input + button[type="submit"] {
     display: none;
