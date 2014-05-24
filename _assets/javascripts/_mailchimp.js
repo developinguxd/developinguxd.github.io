@@ -4,6 +4,7 @@
   $(function () {
     var form    = $("#mc-embedded-subscribe-form"),
         action  = form.attr("action"),
+        method  = form.attr("method"),
         success = form.find(".js-done-response"),
         error   = form.find(".js-fail-response"),
         request;
@@ -14,7 +15,15 @@
 
     form.on("submit", function (event) {
       event.preventDefault();
-      request = $.post(action, form.serialize());
+      request = $.ajax({
+        type        : method,
+        url         : action,
+        data        : form.serialize(),
+        cache       : false,
+        dataType    : "json",
+        contentType : "application/json; charset=utf-8"
+    });
+
       request.done(function onRequestDone (result) {
         reset();
         result === "success" && success.text("Well done! See you soon!");
