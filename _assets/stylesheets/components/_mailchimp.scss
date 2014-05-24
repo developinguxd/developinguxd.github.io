@@ -23,7 +23,7 @@
   }
 
   label.valid ~ * {
-    display: none;
+    display: none!important;
   }
 
   input[type="email"] {
