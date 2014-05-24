@@ -22,8 +22,7 @@
     }
   }
 
-  label.valid ~ *,
-  .mailchimp__powered-by {
+  label.valid ~ * {
     display: none!important;
   }
 
