@@ -1,6 +1,6 @@
 <nav class="page-nav" data-page-nav>
     <ul class="page-nav__list">
-    {% for link in site.navigation %}
+    {% for link in site.data.navigation %}
         {% assign active = nil %}
         {% if page.url contains link.url or page.url contains 'datenschutz' and forloop.first %}
           {% assign active = ' page-nav__link--active' %}

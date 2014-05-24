@@ -1,3 +1,10 @@
+site_name: Developing UXD
+description: Learn basic frontend coding skills in no time and improve your work as a User Experience Designer
+keywords: "frontend, coding, user experience designer, learn, developing, html, html5, css"
+full_url: http://developinguxd.com
+og_image: "assets/images/open_graph.png"
+type: website
+
 safe: true
 lsi: false
 pygments: true
@@ -13,13 +20,3 @@ exclude:
   - Gemfile.lock
   - uninstall_gems.sh
   - config.codekit
-
-navigation:
-  - title: Start learning
-    url: /index.html
-  - title: Workshop
-    url: /workshop.html
-  - title: Projects
-    url: "/projects.html"
-  - title: Contact
-    url: /contact.html
