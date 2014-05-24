@@ -14,11 +14,15 @@
   }
 
   label.valid {
-    color: $color-attribute;
+    background-color: #a6e22e;
+    padding: 5px 10px;
+
+    &:after {
+      content: "!";
+    }
   }
 
-  label.valid + input,
-  label.valid + input + button[type="submit"] {
+  label.valid ~ * {
     display: none;
   }
 

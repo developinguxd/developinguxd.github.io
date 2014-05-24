@@ -2,6 +2,7 @@
   "use strict";
 
   function onDone (result) {
+    debugger;
     if (result === "success") {
       $("#mailchimp-form").find("button, input").remove();
     }
