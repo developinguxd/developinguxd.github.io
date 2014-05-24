@@ -1,13 +1,6 @@
 (function($, window, undefined) {
   "use strict";
 
-  function onDone (result) {
-    debugger;
-    if (result === "success") {
-      $("#mailchimp-form").find("button, input").remove();
-    }
-  }
-
   function addSubmitHandler () {
     $("#mailchimp-form").find("button, input").prop("disabled", true);
   }
@@ -25,8 +18,6 @@
     addSubmitHandler();
   });
 
-  $("#mailchimp-form").ajaxChimp({
-    callback: onDone
-  });
+  $("#mailchimp-form").ajaxChimp();
 
 }(jQuery, this));
