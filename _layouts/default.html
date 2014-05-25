@@ -12,7 +12,9 @@
 
   <main class="grid__container">
   {{ content }}
-  {% include _livefyre.html %}
+  {% if page.comments != false %}
+    {% include _livefyre.html %}
+  {% endif %}
   </main>
 
   {% include _footer.html %}
