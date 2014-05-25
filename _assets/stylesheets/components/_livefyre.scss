@@ -1,0 +1,45 @@
+@import "component-imports";
+
+.fyre .fyre-stream-stats,
+.fyre .fyre-stream-livecount {
+  font-family: inherit !important;
+}
+
+.fyre-editor .fyre-editor-container .fyre-editor-editable {
+  font-size: 0.8em !important;
+  font-family: inherit !important;
+}
+
+.fyre-editor .fyre-editor-toolbar .goog-toolbar {
+  position: static !important;
+}
+
+.fyre-editor .fyre-editor-toolbar .goog-toolbar > div {
+  background-image: none !important;
+}
+
+.fyre .fyre-comment-article, .fyre .fyre-comment-stream {
+  font-family: inherit !important;
+  font-size: 0.9em !important;
+  line-height: 1.3em !important;
+}
+
+/* Hide the top logo */
+.fyre-widget .fyre-logo-drop, .fyre-widget .fyre-logo-help, .fyre-widget .fyre-help {
+    display: none !important;
+}
+
+/* Style the bottom logo */
+#powered_by_livefyre_new a {
+    background: url('http://zor.livefyre.com/wjs/v1.0/images/icons/poweredbylivefyre.png') no-repeat left top;
+    border-style: none;
+    display: block;
+    height: 24px;
+    font-size: 0.5em;
+    text-decoration: none;
+    color: #404040;
+    padding-left: 28px;
+}
+#powered_by_livefyre_new a:hover {
+    text-decoration: underline;
+}
