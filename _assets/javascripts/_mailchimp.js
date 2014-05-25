@@ -9,11 +9,11 @@
       labelText  = label.text();
 
   form.ajaxChimp({callback: function () {
-    button.removeClass("sending");
     if (label.hasClass("error")) {
       button.addClass("error");
       button.text("Error");
     }
+    button.removeClass("sending");
     input.add(button).prop("disabled", false);
   }});
 
