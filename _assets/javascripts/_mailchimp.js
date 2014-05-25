@@ -3,19 +3,29 @@
 
   var form       = $("#mailchimp-form"),
       input      = form.find("input[type=email]"),
+      label      = form.find("label"),
       button     = form.find("button[type=submit]"),
-      buttonText = button.text();
+      buttonText = button.text(),
+      labelText  = label.text();
 
-  form.ajaxChimp();
+  form.ajaxChimp({callback: function () {
+    button.removeClass("sending");
+    if (label.hasClass("error")) {
+      button.addClass("error");
+      button.text("Error");
+    }
+    input.add(button).prop("disabled", false);
+  }});
 
-  $(document).on("ajaxStart", function () {
+  form.on("submit", function () {
     input.add(button).prop("disabled", true);
-    button.text("Sending ...").addClass("sending");
+    button.text("Sending ...").addClass("sending").removeClass("error");
   });
 
-  $(document).on("ajaxComplete", function () {
-    input.add(button).prop("disabled", false);
-    button.text(buttonText).removeClass("sending");
+  input.on("keyup, focus", function () {
+    $(this).removeClass("error");
+    label.removeClass("error").text(labelText);
+    button.text(buttonText).removeClass("error");
   });
 
 }(jQuery, this));

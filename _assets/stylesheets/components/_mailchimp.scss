@@ -9,7 +9,8 @@
     margin-bottom: 0.1em;
   }
 
-  label.error {
+  label.error,
+  input.error {
     color: $color-tag;
   }
 
@@ -56,12 +57,14 @@
     margin-top: 0.5em;
     width: 100%;
 
-    &:hover {
+    &:hover,
+    &.sending {
       background-color: $color-attribute;
     }
 
-    &.sending {
+    &.error {
       background-color: $color-tag;
+      color: $color-paper;
     }
 
     @include medium {
@@ -72,7 +75,12 @@
   }
 }
 
-.mainchimp__powered-by {
+.lastname {
+  position: absolute;
+  left: -5000px;
+}
+
+.mailchimp__powered-by {
   color: $color-dark-grey;
   font-size: 0.8em;
   margin-top: 0.5em;
