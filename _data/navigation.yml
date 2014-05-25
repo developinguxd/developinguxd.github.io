@@ -1,8 +1,8 @@
 - title: Start learning
-  url: /index.html
+  url: "/"
 - title: Workshops
-  url: /workshops.html
+  url: "workshops.html"
 - title: Projects
-  url: "/projects.html"
+  url: "projects.html"
 - title: Contact
-  url: /contact.html
+  url: "contact.html"
