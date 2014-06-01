@@ -13,7 +13,7 @@
   @extend %t-normal;
 }
 
-h1,
+h1:not([class]),
 .main-headline {
   @extend .t-mono;
   color: $color-tag;

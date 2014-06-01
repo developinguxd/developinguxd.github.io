@@ -9,9 +9,10 @@
 @import 'fonts';
 @import 'base';
 
+@import 'components/article';
+@import 'components/livefyre';
+@import 'components/mailchimp';
 @import 'components/page-header';
 @import 'components/page-footer';
-@import 'components/article';
 @import 'components/page-nav';
-@import 'components/mailchimp';
-@import 'components/livefyre';
+@import 'components/resource';
